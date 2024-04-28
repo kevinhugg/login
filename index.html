@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sla.js"></script>
+    <title>Forms</title>
+</head>
+<body>
+ 
+    
+
+    <div class="card">
+        <img src="log-in.png" id="can">
+        <br>
+        <form action="#.php" method="get">
+            <label for="nome">User:</label>
+            <input type="text" id="login" placeholder="insira seu usuário:">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Insira sua senha:">
+
+            <br>
+            <div class="btn">
+                <input type="button" value="ENVIAR" onclick="autenticar()" class="botao">
+            </div>
+            <p id="mensagem"></p>
+        </form>
+    </div>
+
+        
+
+
+</body>
+</html>
